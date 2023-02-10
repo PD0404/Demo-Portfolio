@@ -1,0 +1,52 @@
+@media screen and (max-width: 855px) {
+    .navbar {
+        float: left;
+    }
+    .navbar a {
+        width: 100%;
+        margin: 8px;
+        float: left;
+        text-align: left;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-y: scroll;
+    background-image: url("https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzUzMzg5MzA&ixlib=rb-4.0.3&q=80");
+    background-size: cover;
+}
+
+h1 {
+    padding: 0px 8px 8px 64px;
+    margin: 0px;
+    float: left;
+    font-style: italic;
+    color: rgb(15, 122, 15);
+    display: contents;
+}
+
+.navbar {
+    width: 50%;
+    padding: 0px 64px 8px 8px;
+    float: right;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+
+.navbar a {
+    padding: 8px;
+    text-decoration: none;
+    color: yellowgreen;
+    background-color: rgb(40, 38, 38);
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+.navbar .active {
+    color: red;
+}
